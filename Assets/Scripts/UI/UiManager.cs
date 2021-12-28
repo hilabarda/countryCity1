@@ -6,10 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class UiManager : MonoBehaviour
 {
-    [SerializeField]
-    private Image iconsCollectedImage;
-    [SerializeField]
-    private Text iconsCollectedText;
+    
     [SerializeField]
     private Text playerScoreText;
 
@@ -24,6 +21,7 @@ public class UiManager : MonoBehaviour
         gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
         gameManager.OnIconCollected += ChangeIconsCollectedImage;
         gameManager.OnAllIconsCollected += DisplayWinText;
+        countryImage = GetComponent<Image>();
     }
 
     private void DisplayWinText()
@@ -33,7 +31,6 @@ public class UiManager : MonoBehaviour
 
     private void ChangeIconsCollectedImage(int icon)
     {
-        iconsCollectedText.text = $"Icons Collected:{icon.ToString()}";
         countryImage.color = new Color(100, 50, 100);
        
     }

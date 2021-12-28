@@ -9,10 +9,12 @@ public class GameManager : MonoBehaviour
     private int maxIcons = 5;
 
     private int iconsCollected = 0;
+    private Color iconsCollectedColor;
 
 
     public UnityAction OnAllIconsCollected;
     public UnityAction<int> OnIconCollected;
+    public UnityAction<Color> OnIconCollectedColor;
 
     public int Icons
     {
@@ -28,6 +30,17 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+    //public Color IconsColor
+    //{
+        //get { return iconsCollectedColor; }
+        //set { iconsCollectedColor = value;
+            //if (iconsCollectedColor)
+            //{
+                //OnIconCollectedColor?.Invoke();
+            //}
+        //}
+    //}
 
     public int MaxIcons
     {

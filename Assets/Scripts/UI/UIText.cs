@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class UIText : MonoBehaviour
 {
     [SerializeField]
-    private GameObject [] gameObjectText;
-    [SerializeField]
-    private bool text = false;
+    private GameObject [] gameObjectLetters;
+    private int letters = 22;
+   
 
     private void Start()
     {
@@ -18,33 +19,25 @@ public class UIText : MonoBehaviour
 
     private IEnumerator TextShow()
     {
-        gameObjectText[0].SetActive(true);
-        yield return new WaitForSeconds(0.5f);
-        gameObjectText[0].SetActive(false);
+        for(int i = 0; i < letters; i++)
+        {
+            gameObjectLetters[i].SetActive(true);
+            yield return new WaitForSeconds(0.3f);
+            gameObjectLetters[i].SetActive(false);
 
-        gameObjectText[1].SetActive(true);
-        yield return new WaitForSeconds(0.5f);
-        gameObjectText[1].SetActive(false);
+            if (i >= letters)
+            {
+                
+            }
 
-        gameObjectText[2].SetActive(true);
-        yield return new WaitForSeconds(0.5f);
-        gameObjectText[2].SetActive(false);
+        }
 
-        gameObjectText[3].SetActive(true);
-        yield return new WaitForSeconds(0.5f);
-        gameObjectText[3].SetActive(false);
-
-        gameObjectText[4].SetActive(true);
-        //yield return new WaitForSeconds(0.5f);
-        //gameObjectText[4].SetActive(false);
-
-
-
-
-
-
+       
+       
 
     }
 
     
+
+
 }
