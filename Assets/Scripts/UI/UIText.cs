@@ -8,36 +8,52 @@ public class UIText : MonoBehaviour
 {
     [SerializeField]
     private GameObject [] gameObjectLetters;
-    private int letters = 22;
-   
+    
 
     private void Start()
     {
         StartCoroutine(TextShow());
+
     }
 
 
     private IEnumerator TextShow()
     {
-        for(int i = 0; i < letters; i++)
-        {
-            gameObjectLetters[i].SetActive(true);
-            yield return new WaitForSeconds(0.3f);
-            gameObjectLetters[i].SetActive(false);
+        int randomLetters = Random.Range(0, 22);
 
-            if (i >= letters)
+        int index = 0;
+
+        while (index <= randomLetters)
+        {
+            int indexOfArray = index % gameObjectLetters.Length;
+            gameObjectLetters[indexOfArray].SetActive(true);
+
+            if (indexOfArray == 0)
             {
-                
+                gameObjectLetters[gameObjectLetters.Length - 1].SetActive(false);
+            }
+            else
+            {
+                gameObjectLetters[indexOfArray - 1].SetActive(false);
             }
 
-        }
+            index++;
 
+            yield return new WaitForSeconds(0.3f);
+        }
        
-       
+
+        
+
+        
 
     }
 
+  
+
     
+
+
 
 
 }
