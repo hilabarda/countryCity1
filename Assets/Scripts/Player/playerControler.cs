@@ -5,7 +5,7 @@ using UnityEngine;
 public enum PlayerNumber
 {
     Player1,
-    player2
+    Player2
 }
 
 public class playerControler : MonoBehaviour
@@ -17,7 +17,7 @@ public class playerControler : MonoBehaviour
     [SerializeField]
     private float jumpForce = 5;
     [SerializeField]
-    private PlayerNumber myPlayer;
+    public PlayerNumber myPlayer;
 
     [SerializeField]
     private KeyCode keyJump = KeyCode.Space;
@@ -62,7 +62,7 @@ public class playerControler : MonoBehaviour
             }
         }
 
-        if(myPlayer == PlayerNumber.player2)
+        if(myPlayer == PlayerNumber.Player2)
         {
             vInput = Input.GetAxis(VERTICAL_AXIS2) * moveSpeed;
             hInput = Input.GetAxis(HORIZPNTAL_AXIS2) * rotateSpeed;

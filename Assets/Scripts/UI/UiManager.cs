@@ -1,43 +1,60 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class UiManager : MonoBehaviour
 {
     
     [SerializeField]
-    private Text playerScoreText;
+    private Text playerScoreTextP1;
+    [SerializeField]
+    private Text playerScoreTextP2;
 
     [SerializeField]
     private Image countryImage;
+    private Color color;
+    
 
     [SerializeField]
     private GameManager gameManager;
+    [SerializeField]
+    private playerControler player;
 
     private void Start()
     {
         gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
+        gameManager.OnIconCollected += ChangeIconsCollectedText;
         gameManager.OnIconCollected += ChangeIconsCollectedImage;
         gameManager.OnAllIconsCollected += DisplayWinText;
-        countryImage = GetComponent<Image>();
+        player = GameObject.FindObjectOfType<playerControler>().GetComponent<playerControler>();
+        
     }
 
     private void DisplayWinText()
     {
+        ChangeIconsCollectedText(gameManager.MaxIcons);
         ChangeIconsCollectedImage(gameManager.MaxIcons);
     }
 
-    private void ChangeIconsCollectedImage(int icon)
+    private void ChangeIconsCollectedText(int icons)
     {
-        countryImage.color = new Color(100, 50, 100);
-       
+        if (player.myPlayer == PlayerNumber.Player1)
+        {
+            playerScoreTextP1.text = $"Score: {icons.ToString()}";
+        }
+        if (player.myPlayer == PlayerNumber.Player2)
+        {
+            playerScoreTextP2.text = $"Score: {icons.ToString()}";
+        }
+
+
     }
 
-    private void ScoreText(int score)
+    private void ChangeIconsCollectedImage(int Color)
     {
-        playerScoreText.text = $"Score: {score.ToString()}";
+        countryImage.GetComponent<Image>(Color = new Color (100, 50, 100));
+        Debug.Log("image");
     }
 
 
