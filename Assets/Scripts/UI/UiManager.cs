@@ -53,8 +53,7 @@ public class UiManager : MonoBehaviour
 
     private void ChangeIconsCollectedImage(int Color)
     {
-        countryImage.GetComponent<Image>(Color = new Color (100, 50, 100));
-        Debug.Log("image");
+        
     }
 
 

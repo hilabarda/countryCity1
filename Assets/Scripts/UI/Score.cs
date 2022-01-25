@@ -18,7 +18,7 @@ public class Score : MonoBehaviour
 
     private void Start()
     {
-        gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
+        //gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
         gameManager.OnIconCollected += ScoreText;
         player = GameObject.FindObjectOfType<playerControler>().GetComponent<playerControler>();
 
