@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 36871707}
   m_Layer: 0
   m_Name: Player1
-  m_TagString: Player
+  m_TagString: Player1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4950,7 +4950,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &278465031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4958,13 +4958,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 278465030}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78f34ce30ad264f7bb014159288435a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerScoreTextP1: {fileID: 1918931124}
-  playerScoreTextP2: {fileID: 934824765}
   countryImage: {fileID: 2117692256}
   gameManager: {fileID: 688563246}
   player: {fileID: 36871707}
@@ -21597,7 +21595,7 @@ GameObject:
   - component: {fileID: 1716000863}
   m_Layer: 0
   m_Name: Player2
-  m_TagString: Player
+  m_TagString: Player2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21672,7 +21670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1716000857}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.09, y: 0.6, z: -1.72}
+  m_LocalPosition: {x: 3, y: 0.6, z: -1.72}
   m_LocalScale: {x: 0.5, y: 1, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -22345,6 +22343,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1756598212}
+  - component: {fileID: 1756598211}
   m_Layer: 0
   m_Name: Score
   m_TagString: Untagged
@@ -22352,6 +22351,23 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1756598211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756598210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8798fac59d7a4b17bdeacc60c74068c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreTextP1: {fileID: 1918931124}
+  scoreTextP2: {fileID: 934824765}
+  gameManager: {fileID: 688563246}
+  player1: {fileID: 36871707}
+  player2: {fileID: 1716000863}
 --- !u!4 &1756598212
 Transform:
   m_ObjectHideFlags: 0

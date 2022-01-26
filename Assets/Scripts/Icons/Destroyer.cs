@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -7,22 +5,24 @@ using UnityEngine;
 public class Destroyer : MonoBehaviour
 {
     private GameManager gameManager;
-    [SerializeField]
-    private bool buttem = false;
-    private playerControler player;
+    private bool buttemP1 = false;
+    private bool buttemP2 = false;
+    private GameObject player1;
+    private GameObject player2;
 
     private void Start()
     {
         gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
-        player = GameObject.FindObjectOfType<playerControler>().GetComponent<playerControler>();
+        player1 = GameObject.FindWithTag("Player1");
+        player2 = GameObject.FindWithTag("Player2");
     }
 
     private void Update()
     {
         
-        if(player.myPlayer == PlayerNumber.Player1)
+        if(player1)
         {
-            if (Input.GetKeyDown(KeyCode.Alpha1) && buttem == true)
+            if (Input.GetKeyDown(KeyCode.Alpha1) && buttemP1 == true)
             {
                 Destroy(gameObject);
                 gameManager.Icons += 1;
@@ -30,9 +30,9 @@ public class Destroyer : MonoBehaviour
             }
         }
 
-        if (player.myPlayer == PlayerNumber.Player2)
+        if (player2)
         {
-            if (Input.GetKeyDown(KeyCode.Alpha2) && buttem == true)
+            if (Input.GetKeyDown(KeyCode.Alpha2) && buttemP2 == true)
             {
                 Destroy(gameObject);
                 gameManager.Icons += 1;
@@ -44,15 +44,26 @@ public class Destroyer : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player1"))
         {
-            buttem = true;
+            buttemP1 = true;
+        }
+        if (other.gameObject.CompareTag("Player2"))
+        {
+            buttemP2 = true;
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        buttem = false;
+        if (other.gameObject.CompareTag("Player1"))
+        {
+            buttemP1 = false;
+        }
+        if (other.gameObject.CompareTag("Player2"))
+        {
+            buttemP2 = false;
+        }
     }
 
   

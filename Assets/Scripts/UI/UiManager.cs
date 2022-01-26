@@ -6,10 +6,7 @@ using System;
 public class UiManager : MonoBehaviour
 {
     
-    [SerializeField]
-    private Text playerScoreTextP1;
-    [SerializeField]
-    private Text playerScoreTextP2;
+    
 
     [SerializeField]
     private Image countryImage;
@@ -25,7 +22,6 @@ public class UiManager : MonoBehaviour
     {
         gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
         gameManager.OnIconCollected += ChangeIconsCollectedText;
-        gameManager.OnIconCollected += ChangeIconsCollectedImage;
         gameManager.OnAllIconsCollected += DisplayWinText;
         player = GameObject.FindObjectOfType<playerControler>().GetComponent<playerControler>();
         
@@ -34,27 +30,16 @@ public class UiManager : MonoBehaviour
     private void DisplayWinText()
     {
         ChangeIconsCollectedText(gameManager.MaxIcons);
-        ChangeIconsCollectedImage(gameManager.MaxIcons);
     }
 
     private void ChangeIconsCollectedText(int icons)
     {
-        if (player.myPlayer == PlayerNumber.Player1)
-        {
-            playerScoreTextP1.text = $"Score: {icons.ToString()}";
-        }
-        if (player.myPlayer == PlayerNumber.Player2)
-        {
-            playerScoreTextP2.text = $"Score: {icons.ToString()}";
-        }
-
-
-    }
-
-    private void ChangeIconsCollectedImage(int Color)
-    {
         
+
+
     }
+
+   
 
 
     public void ClickEndGameButtom()
