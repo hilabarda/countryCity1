@@ -19,24 +19,20 @@ public class Destroyer : MonoBehaviour
 
     private void Update()
     {
-        
-        if(player1)
+
+        if (player1)
         {
             if (Input.GetKeyDown(KeyCode.Alpha1) && buttemP1 == true)
             {
                 Destroy(gameObject);
-                gameManager.Icons += 1;
-                Debug.Log("icon collectedP1");
             }
         }
 
-        if (player2)
+        else if (player2)
         {
             if (Input.GetKeyDown(KeyCode.Alpha2) && buttemP2 == true)
             {
                 Destroy(gameObject);
-                gameManager.Icons += 1;
-                Debug.Log("icon collectedP2");
             }
         }
     }
@@ -48,7 +44,7 @@ public class Destroyer : MonoBehaviour
         {
             buttemP1 = true;
         }
-        if (other.gameObject.CompareTag("Player2"))
+        else if (other.gameObject.CompareTag("Player2"))
         {
             buttemP2 = true;
         }
@@ -60,16 +56,10 @@ public class Destroyer : MonoBehaviour
         {
             buttemP1 = false;
         }
-        if (other.gameObject.CompareTag("Player2"))
+        else if (other.gameObject.CompareTag("Player2"))
         {
             buttemP2 = false;
         }
+
     }
-
-  
-
-
-
-
-
 }

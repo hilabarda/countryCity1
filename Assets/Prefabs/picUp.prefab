@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 105272306414642453}
   - component: {fileID: 610644794428877019}
   - component: {fileID: 3935119587167743713}
-  - component: {fileID: 6240623394725212926}
+  - component: {fileID: -3871693465501165349}
   m_Layer: 0
   m_Name: picUp
-  m_TagString: Untagged
+  m_TagString: picUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.6
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6240623394725212926
+--- !u!114 &-3871693465501165349
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

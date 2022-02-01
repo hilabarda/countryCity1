@@ -19,23 +19,23 @@ public class Score : MonoBehaviour
 
     private void Start()
     {
-        gameManager.OnIconCollected += AddScore;
+        //gameManager.OnIconCollected += AddScore;
         player1.myPlayer = PlayerNumber.Player1;
         player2.myPlayer = PlayerNumber.Player2;
 
     }
 
-    private void AddScore (int score)
+    public void AddScore (PlayerNumber pNumber)
     {
-        if (player1.myPlayer == PlayerNumber.Player1)
+        if (pNumber == PlayerNumber.Player1)
         {
-            //scoreP1++;
-            scoreTextP1.text = $"Score:{score.ToString()}" + scoreP1;
+            scoreP1++;
+            scoreTextP1.text = $"Score:{scoreP1.ToString()}";
         }
-        if (player2.myPlayer == PlayerNumber.Player2)
+        else if (pNumber == PlayerNumber.Player2)
         {
-            //scoreP2++;
-            scoreTextP2.text = $"Score:{score.ToString()}" + scoreP2;
+            scoreP2++;
+            scoreTextP2.text = $"Score:{scoreP2.ToString()}";
         }
 
     }
