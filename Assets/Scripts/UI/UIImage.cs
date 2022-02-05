@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class UIImage : MonoBehaviour
 {
     [SerializeField]
-    private RawImage imageCollectedP1;
+    private RawImage[] imageCollectedP1;
     [SerializeField]
-    private Image[] imageCollectedP2;
+    private RawImage[] imageCollectedP2;
     [SerializeField]
     private GameManager gameManager;
     [SerializeField]
@@ -21,6 +21,6 @@ public class UIImage : MonoBehaviour
 
     private void ChangeImage(int Icons)
     {
-        imageCollectedP1.texture = texture;
+        imageCollectedP1[0].texture = texture;
     }
 }
