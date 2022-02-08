@@ -1,18 +1,46 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Timer timer;
+    [SerializeField]
+    private Text text;
+    [SerializeField]
+    private GameObject score;
+
+    private int time = 30;
+
+    private void Awake()
     {
-        
+        timer = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        StartCoroutine(MinusSeconds());
+        DontDestroyOnLoad(score);
+    }
+
+    private void Update()
+    {
+        if(time == 0)
+        {
+            SceneManager.LoadScene(1);
+        }
+    }
+
+    private IEnumerator MinusSeconds()
+    {
+        yield return new WaitForSeconds(1.5f);
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+            time--;
+            text.text = time.ToString();
+        }
     }
 }

@@ -29,8 +29,14 @@ public enum Letters
 }
 public class Icons : MonoBehaviour
 {
+    [SerializeField]
+    private List<IconsManager> icons;
+    [SerializeField]
     private List<List<Texture>> answers = new List<List<Texture>>();
     private Dictionary<Letters, List<Texture>> texturesDict = new Dictionary<Letters, List<Texture>>();
+
+    public List<List<Texture>> Answers => answers;
+    public Dictionary<Letters, List<Texture>> TexturesDict => texturesDict;
 
     private void Start()
     {

@@ -13,12 +13,12 @@ public class UIText : MonoBehaviour
     private void Start()
     {
         StartCoroutine(TextShow());
-
     }
 
 
     private IEnumerator TextShow()
     {
+        yield return new WaitForSeconds(1.5f);
         int randomLetters = Random.Range(0, 22);
 
         int index = 0;

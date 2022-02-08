@@ -23,6 +23,7 @@ public class Score : MonoBehaviour
         player1.myPlayer = PlayerNumber.Player1;
         player2.myPlayer = PlayerNumber.Player2;
 
+
     }
 
     public void AddScore (PlayerNumber pNumber)
@@ -31,11 +32,13 @@ public class Score : MonoBehaviour
         {
             scoreP1++;
             scoreTextP1.text = $"Score:{scoreP1.ToString()}";
+            PlayerPrefs.SetInt("Score:", scoreP1);
         }
         else if (pNumber == PlayerNumber.Player2)
         {
             scoreP2++;
             scoreTextP2.text = $"Score:{scoreP2.ToString()}";
+            PlayerPrefs.SetInt("Score:", scoreP2);
         }
 
     }

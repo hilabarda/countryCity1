@@ -15,5 +15,5 @@ MonoBehaviour:
   category: country
   iconLetter: Alef
   iconName: United States
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: c89c9b662153242eb9ed8098cb0e1ed3, type: 3}
   iconScore: 1

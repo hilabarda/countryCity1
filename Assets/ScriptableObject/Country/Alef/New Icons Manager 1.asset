@@ -15,5 +15,5 @@ MonoBehaviour:
   category: country
   iconLetter: Alef
   iconName: Austria
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 20e29257528d141169bc281349d396ca, type: 3}
   iconScore: 1

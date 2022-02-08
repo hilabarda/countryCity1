@@ -15,5 +15,5 @@ MonoBehaviour:
   category: country
   iconLetter: Bet
   iconName: United Kingdom
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 2f8f876b1690740778af281a971a7a42, type: 3}
   iconScore: 1

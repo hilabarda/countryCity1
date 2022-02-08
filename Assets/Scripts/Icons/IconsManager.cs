@@ -17,6 +17,8 @@ public class IconsManager : ScriptableObject
     [SerializeField]
     private int iconScore;
 
+    public string Category => category;
+    public string IconLetter => iconLetter;
     public string IconName => iconName;
     public Sprite Icon => icon;
     public int IconScore => iconScore;

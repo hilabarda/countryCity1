@@ -10,6 +10,8 @@ public class PlayerCollected : MonoBehaviour
     private Score score;
     [SerializeField]
     private KeyCode collectedKey;
+    [SerializeField]
+    private GameObject currentPickUp;
 
 
     private void Start()
@@ -21,6 +23,7 @@ public class PlayerCollected : MonoBehaviour
     {
         if (other.gameObject.CompareTag("picUp"))
         {
+            currentPickUp = other.gameObject;
             buttem = true;
         }
     }
@@ -29,6 +32,7 @@ public class PlayerCollected : MonoBehaviour
     {
         if (other.gameObject.CompareTag("picUp"))
         {
+            currentPickUp = null;
             buttem = false;
         }
     }
@@ -38,7 +42,11 @@ public class PlayerCollected : MonoBehaviour
         if(Input.GetKeyDown(collectedKey) && buttem == true)
         {
             score.AddScore(controler.myPlayer);
-            Debug.Log("icon collected");
+            if(currentPickUp != null)
+            {
+                Destroy(currentPickUp);
+                currentPickUp = null;
+            }
         }
     }
 }
