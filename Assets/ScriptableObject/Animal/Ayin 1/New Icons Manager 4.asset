@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Ayin
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Atalef
+  icon: {fileID: -7409347990452659558, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

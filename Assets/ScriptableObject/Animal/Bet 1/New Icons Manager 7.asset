@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Bet
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Duck
+  icon: {fileID: -6499081592015737069, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

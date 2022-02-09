@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Tav
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Tuky
+  icon: {fileID: 1038260240431835643, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

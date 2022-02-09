@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Non
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Snake
+  icon: {fileID: 2817951216443365015, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

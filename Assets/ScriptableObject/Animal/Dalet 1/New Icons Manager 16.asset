@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Dalet
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Dov
+  icon: {fileID: 5179253812205960628, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

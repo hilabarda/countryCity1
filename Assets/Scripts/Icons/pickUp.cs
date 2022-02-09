@@ -11,10 +11,7 @@ public class pickUp : MonoBehaviour
     private float minTime = 1;
     [SerializeField]
     private float maxTime = 1.5f;
-    [SerializeField]
-    private float minPos;
-    [SerializeField]
-    private float maxPos;
+    
     [SerializeField]
     private GameObject[] pickupPlane;
 

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Tsadi
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Tzav
+  icon: {fileID: 7488224594526167675, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

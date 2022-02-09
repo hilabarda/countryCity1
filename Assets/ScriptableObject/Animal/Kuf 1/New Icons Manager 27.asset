@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Kuf
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Kipod
+  icon: {fileID: -1453548918769914328, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

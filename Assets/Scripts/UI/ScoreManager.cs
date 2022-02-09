@@ -16,8 +16,6 @@ public class ScoreManager : MonoBehaviour
 
     private void Start()
     {
-        player1.myPlayer = PlayerNumber.Player1;
-        player2.myPlayer = PlayerNumber.Player2;
         scoreTextP1.text = PlayerPrefs.GetInt("Score").ToString();
         scoreTextP2.text = PlayerPrefs.GetInt("Score").ToString();
     }

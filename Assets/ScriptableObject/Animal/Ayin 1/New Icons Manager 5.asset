@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Ayin
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Acbar
+  icon: {fileID: 6157072479845444063, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

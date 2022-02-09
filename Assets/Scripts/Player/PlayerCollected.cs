@@ -12,11 +12,13 @@ public class PlayerCollected : MonoBehaviour
     private KeyCode collectedKey;
     [SerializeField]
     private GameObject currentPickUp;
+    private Destroyer destroyer;
 
 
     private void Start()
     {
         controler = GetComponent<playerControler>();
+        destroyer = GetComponent<Destroyer>();
     }
 
     private void OnTriggerEnter(Collider other)
@@ -39,14 +41,17 @@ public class PlayerCollected : MonoBehaviour
 
     public void Update()
     {
-        if(Input.GetKeyDown(collectedKey) && buttem == true)
+        if(Input.GetKeyDown(collectedKey) && buttem == true && currentPickUp != null)
         {
             score.AddScore(controler.myPlayer);
-            if(currentPickUp != null)
-            {
-                Destroy(currentPickUp);
-                currentPickUp = null;
-            }
+            Destroy(currentPickUp);
+
+            //if(currentPickUp != null)
+            //{
+                //Debug.Log("destroy");
+                //Destroy(currentPickUp);
+                //currentPickUp = null;
+            //}
         }
     }
 }

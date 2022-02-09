@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Tsadi
-  iconName: 
-  icon: {fileID: 0}
+  iconName: frog
+  icon: {fileID: 5297378086210514703, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

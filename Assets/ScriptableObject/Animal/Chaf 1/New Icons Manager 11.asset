@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Chaf
-  iconName: 
-  icon: {fileID: 0}
+  iconName: sheep
+  icon: {fileID: -5747795244350036865, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1
