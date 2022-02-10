@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "New Icons Manager", menuName = "Icon", order = 51)]
 
@@ -13,7 +14,7 @@ public class IconsManager : ScriptableObject
     [SerializeField]
     private string iconName;
     [SerializeField]
-    private Sprite icon;
+    public Sprite icon;
     [SerializeField]
     private int iconScore;
 

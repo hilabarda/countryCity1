@@ -15,5 +15,5 @@ MonoBehaviour:
   category: country
   iconLetter: Bet
   iconName: Brazil
-  icon: {fileID: 0}
+  icon: {fileID: 4400857621335404153, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
   iconScore: 1

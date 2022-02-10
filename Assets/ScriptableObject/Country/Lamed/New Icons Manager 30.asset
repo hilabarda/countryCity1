@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: country
   iconLetter: Lamed
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: Luxemburg
+  icon: {fileID: -9007519112594837428, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
   iconScore: 1

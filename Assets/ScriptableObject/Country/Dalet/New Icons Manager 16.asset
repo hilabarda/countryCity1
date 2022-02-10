@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: country
   iconLetter: Dalet
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: Denmark
+  icon: {fileID: -306036704260625420, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
   iconScore: 1

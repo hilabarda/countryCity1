@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: country
   iconLetter: Dalet
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: DromKorea
+  icon: {fileID: 4925461212811782035, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
   iconScore: 1

@@ -32,11 +32,13 @@ public class Score : MonoBehaviour
         {
             scoreP1++;
             scoreTextP1.text = scoreP1.ToString();
+            PlayerPrefs.SetInt("SP1 ", scoreP1);
         }
         else if (pNumber == PlayerNumber.Player2)
         {
             scoreP2++;
             scoreTextP2.text = scoreP2.ToString();
+            PlayerPrefs.SetInt("SP2 ", scoreP1);
         }
 
     }

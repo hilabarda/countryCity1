@@ -309,6 +309,49 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4787460223657084, guid: cc0b6d4b15530d942bffb81f838c93fc, type: 3}
   m_PrefabInstance: {fileID: 8210762}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9933708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9933710}
+  - component: {fileID: 9933709}
+  m_Layer: 0
+  m_Name: GameOver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &9933709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9933708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f3b83dc1d20a4ef3a96d564cdb3fb1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &9933710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9933708}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.7861938, y: 0.09626737, z: -1.4370953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &15587121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22061,7 +22104,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: {fileID: 1756598211}
   collectedKey: 50
-  currentPickUp: {fileID: 1789189029}
+  currentPickUp: {fileID: 8332141053287989803, guid: 65029dacfa04f4d9b85709f01c19a7c2, type: 3}
 --- !u!1001 &1721109024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27622,14 +27665,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   answersLetterAlefCategoryCountry:
     answerIconData:
-    - {fileID: 11400000, guid: 87fd995fe56fe4ab8964317bbf47facd, type: 2}
+    - {fileID: 0}
     - {fileID: 11400000, guid: 40d451837d7304ca1b74c3a49371b195, type: 2}
     - {fileID: 11400000, guid: 4286b105eabfe4f099c7d1a2640bb000, type: 2}
   answersLetterAlefCategoryCity:
     answerIconData:
     - {fileID: 11400000, guid: e2fd2a4cb986340e8aa07b12ef581958, type: 2}
     - {fileID: 11400000, guid: 15218ebea89094c96a68c4af8543bd04, type: 2}
-    - {fileID: 11400000, guid: e2de0f5f755c249a2b2ba439af118306, type: 2}
+    - {fileID: 0}
   answersLetterAlefCategoryAnimal:
     answerIconData:
     - {fileID: 11400000, guid: c615c811e3d2b4059a1bf6c866b56ede, type: 2}

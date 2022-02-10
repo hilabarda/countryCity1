@@ -44,14 +44,13 @@ public class PlayerCollected : MonoBehaviour
         if(Input.GetKeyDown(collectedKey) && buttem == true && currentPickUp != null)
         {
             score.AddScore(controler.myPlayer);
-            Destroy(currentPickUp);
+            //Destroy(currentPickUp.gameObject);
 
-            //if(currentPickUp != null)
-            //{
-                //Debug.Log("destroy");
-                //Destroy(currentPickUp);
-                //currentPickUp = null;
-            //}
+            if(currentPickUp != null)
+            {
+                Destroy(currentPickUp.transform.parent.gameObject);
+                currentPickUp = null;
+            }
         }
     }
 }

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: City
   iconLetter: Dalet
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Dimona
+  icon: {fileID: 7067886663092049900, guid: 1891b6f53a59c4efa830dca4943dd28e, type: 3}
   iconScore: 1

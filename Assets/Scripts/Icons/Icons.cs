@@ -478,7 +478,7 @@ public class Icons : MonoBehaviour
 
         for(int i = 0; i < a1.Count; i++)
         {
-            spritesAns.Add(a1[i].Icon);
+            spritesAns.Add(a1[i].icon);
         }
 
         return spritesAns;

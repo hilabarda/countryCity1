@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: country
   iconLetter: Hay
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: Hungary
+  icon: {fileID: 7262306419948618334, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
   iconScore: 1

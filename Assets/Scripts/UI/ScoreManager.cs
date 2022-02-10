@@ -9,14 +9,15 @@ public class ScoreManager : MonoBehaviour
     private Text scoreTextP1;
     [SerializeField]
     private Text scoreTextP2;
-    [SerializeField]
-    private playerControler player1;
-    [SerializeField]
-    private playerControler player2;
+    private Score score;
+ 
 
     private void Start()
     {
-        scoreTextP1.text = PlayerPrefs.GetInt("Score").ToString();
-        scoreTextP2.text = PlayerPrefs.GetInt("Score").ToString();
+
+        scoreTextP1 = GetComponent<Text>();
+        scoreTextP2 = GetComponent<Text>();
+        scoreTextP1.text = "SP1 " + PlayerPrefs.GetInt(" ").ToString();
+        scoreTextP2.text = "SP2 " + PlayerPrefs.GetInt(" ").ToString();
     }
 }

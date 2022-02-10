@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: City
   iconLetter: Vav
-  iconName: 
-  icon: {fileID: 0}
+  iconName: Vienna
+  icon: {fileID: 2017238615937370204, guid: 1891b6f53a59c4efa830dca4943dd28e, type: 3}
   iconScore: 1

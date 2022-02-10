@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: country
   iconLetter: Chet
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: Chof Hashnav
+  icon: {fileID: 1070386945139874525, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
   iconScore: 1
