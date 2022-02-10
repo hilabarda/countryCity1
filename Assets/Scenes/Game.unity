@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44659358, g: 0.49642992, b: 0.57482547, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.574817, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -27646,215 +27646,423 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 052244113958b4408b5c97f9d760b2fa, type: 2}
     - {fileID: 11400000, guid: 7ac82eb3742d84304907fb8552c83fd1, type: 2}
   answersLetterBetCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 1237ed50da5e5404682b05668c0f734d, type: 2}
+    - {fileID: 11400000, guid: 3a47ce02ef7fb4f7c9ba76f150c7a926, type: 2}
   answersLetterBetCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: b9635d95fb84a4756ab35805277c3a50, type: 2}
+    - {fileID: 11400000, guid: 629ce819f64c04b7fab9bd4f89071573, type: 2}
   answersLetterBetCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 5c9974a6f8034449e8775a01ab4200b2, type: 2}
+    - {fileID: 11400000, guid: d8837443dfba947c5ac9733c5820795a, type: 2}
   answersLetterBetCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 28aa695e9a9e34518940949b22ec2a74, type: 2}
+    - {fileID: 11400000, guid: f83dbfb70f13140b9874a4f96ef951cb, type: 2}
   answersLetterBetCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 0c6d11cc477fc4080aea2f8a1b1ca0a4, type: 2}
+    - {fileID: 11400000, guid: f4b3c5f69865b4481b0107ed5e1b020a, type: 2}
   answersLetterGimelCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 5609c464ee65d4878aaac45c53606e0d, type: 2}
+    - {fileID: 11400000, guid: 81b842af7308b42dea73c6647cefb15a, type: 2}
   answersLetterGimelCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 1ae20cdf494f04adab39ab275b776ddb, type: 2}
+    - {fileID: 11400000, guid: b69657c5f4deb4df3a0e8dc7f5f30f5c, type: 2}
   answersLetterGimelCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 5b0ba677437b1401babab621742e5bf2, type: 2}
+    - {fileID: 11400000, guid: 35b1e398ed0e54a9690a26669c4b61a3, type: 2}
   answersLetterGimelCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 6f28ceeaf592c4d85873c5f5d6479247, type: 2}
+    - {fileID: 11400000, guid: c9e6d860b6aef45de8a427ad3512e503, type: 2}
   answersLetterGimelCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 8af0b375b38e2483e9f5ba69472baf85, type: 2}
+    - {fileID: 11400000, guid: 6368fa236dc0847a9bbf6de64bbd7c73, type: 2}
   answersLetterDaletCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 6e91975ac93484ef585442ba96427cd4, type: 2}
+    - {fileID: 11400000, guid: b226d178fd9334496a451668cc1ffcf3, type: 2}
   answersLetterDaletCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 6e91975ac93484ef585442ba96427cd4, type: 2}
+    - {fileID: 11400000, guid: b226d178fd9334496a451668cc1ffcf3, type: 2}
   answersLetterDaletCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 27e4f89f86791425aa953647fe8caba8, type: 2}
+    - {fileID: 11400000, guid: 4eea0d5dc4d494c9dbc80cac99327d31, type: 2}
   answersLetterDaletCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: a1daf0905d4fa4171a6c5ff445c62e10, type: 2}
+    - {fileID: 11400000, guid: 1c7f2146dcd8d4e94a96fbe2785ca63d, type: 2}
   answersLetterDaletCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 20a8307fc983c4963b08c20abdf1d358, type: 2}
+    - {fileID: 11400000, guid: dcf4086a571c2430c98934980a770e91, type: 2}
   answersLetterHeyCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 2005c49952ed84a87b7bb485787905f4, type: 2}
+    - {fileID: 11400000, guid: 3eee4ffe277424391bbacd0e97dc6314, type: 2}
   answersLetterHeyCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 99f150394c8f4463fb3c5e5ee1db57cc, type: 2}
+    - {fileID: 11400000, guid: 7149f30ef82424c23976941f1af6ea93, type: 2}
   answersLetterHeyCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: de80e909006384310a2edd934c87f53b, type: 2}
+    - {fileID: 11400000, guid: aead2fc9a36864e359ece3fe2e80dcc9, type: 2}
   answersLetterHeyCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 4ae805d695ab245c7a2586d5771a9bc5, type: 2}
+    - {fileID: 11400000, guid: f5c857338816a4f5683e4ddc45657795, type: 2}
   answersLetterHeyCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 51989d79211bd481fa698e8e49415e14, type: 2}
+    - {fileID: 11400000, guid: 4f95710f6ffbe4600a80dbb216569c81, type: 2}
   answersLetterVavCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: f6c9237d9ebea436a955bdec848f0cd9, type: 2}
+    - {fileID: 11400000, guid: d8061158ead2f428f99ef30635f3bb47, type: 2}
   answersLetterVavCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: cdd52c246a8054f228e5a668ff593017, type: 2}
+    - {fileID: 11400000, guid: 2ca25ba1d52ed467493c419b8f43841e, type: 2}
   answersLetterVavCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 577fff90000134c51bb4090056617c23, type: 2}
+    - {fileID: 11400000, guid: 250d14084721b458b824d70d786f5101, type: 2}
   answersLetterVavCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: cb9164ea4c45f443597d5fe267d2d3c5, type: 2}
+    - {fileID: 11400000, guid: 498efe5a97a0d4a85829ccaabfe7efd8, type: 2}
   answersLetterVavCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 5e7f99e794e3c478db3d433a6156c873, type: 2}
+    - {fileID: 11400000, guid: 06393fe2ee02340beb376c0e10c301e6, type: 2}
   answersLetterZayinCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: de9e16a642e6a41928ccfb071a62e9a0, type: 2}
+    - {fileID: 11400000, guid: ee80e2e8f5ad843afaeec212bdf8c5fa, type: 2}
   answersLetterZayinCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: a681b3b1c74a741eba459b7786291df6, type: 2}
+    - {fileID: 11400000, guid: 6acc4d088c6924c68b85bfe63a910f56, type: 2}
   answersLetterZayinCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 1fb85337735bc484c8389c6e96330133, type: 2}
+    - {fileID: 11400000, guid: 9774d8d5e1c6d4618bedfe02956f6930, type: 2}
   answersLetterZayinCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 41edfec3e2d7e491e930432c58f5b74b, type: 2}
+    - {fileID: 11400000, guid: 9e8b2009d384543cd944a3b97bebcd18, type: 2}
   answersLetterZayinCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: aa068fa1b9444447a83e635ddcf870fb, type: 2}
+    - {fileID: 11400000, guid: c76eb7f24304641c686ca54379767ef3, type: 2}
   answersLetterChetCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: f852af6ade70f4ad2a52d29d2ae76e87, type: 2}
+    - {fileID: 11400000, guid: 69f374fe30bdc4eaf9f0aef92b6d87ff, type: 2}
   answersLetterChetCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 8f134058178de4f13b7a47b1b634d292, type: 2}
+    - {fileID: 11400000, guid: 8e6486cf7ecd542ee92709f735a2111f, type: 2}
   answersLetterChetCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 6c64a33b8c66e4ffc8acf39c9aed6b61, type: 2}
+    - {fileID: 11400000, guid: c8adb6ecbbbe84faaaa10ff6a2a9f9a6, type: 2}
   answersLetterChetCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: aa61cb61703dc4883879b28f7e0f525d, type: 2}
+    - {fileID: 11400000, guid: a92921a546f044040bebc4950d6b2d29, type: 2}
   answersLetterChetCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 36ebb61a704304da0aa9569ab9085a2e, type: 2}
+    - {fileID: 11400000, guid: a056e882f2e0c453993f4b07043e02a3, type: 2}
   answersLetterTetCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 9dcbc35432de14d658236d3c707bba07, type: 2}
+    - {fileID: 11400000, guid: 7f76dfbc4dc8649a6b5e0b50831b7108, type: 2}
   answersLetterTetCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 52bc90223690141e484bea40ed22fdd2, type: 2}
+    - {fileID: 11400000, guid: 2cfa89b41a5a640669fbc59bc9d0204e, type: 2}
   answersLetterTetCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: d5d894669e5614eaf835bfcd4ded2e5f, type: 2}
+    - {fileID: 11400000, guid: 558c0fdce3448436d837e883a04ff344, type: 2}
   answersLetterTetCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: ad9901ddfe3e0451191ef78f2bdcc5a7, type: 2}
+    - {fileID: 11400000, guid: 0b476d98ff46a4dada265f1a2a49d494, type: 2}
   answersLetterTetCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: f598db39330b84b63965af36b580d061, type: 2}
+    - {fileID: 11400000, guid: d61e3eda3c9174f8aa8a3a084ab5c49d, type: 2}
   answersLetterYudCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 459749bbbee704e2c9e547bf0dfa58da, type: 2}
+    - {fileID: 11400000, guid: a8bccd3a740d14c8eb9e8e1a76e98780, type: 2}
   answersLetterYudCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: e2ee8b267c730425fb84a3e793853bfc, type: 2}
+    - {fileID: 11400000, guid: 5e1e1c72d593d44aaaf071c6fc9da239, type: 2}
   answersLetterYudCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: f7f1934d0a29443d995a32ab48f199a5, type: 2}
+    - {fileID: 11400000, guid: 1a090c8f6e52242a98393c9e151a6035, type: 2}
   answersLetterYudCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: d4175018104f449cb8ff3d62591e49b6, type: 2}
+    - {fileID: 11400000, guid: 987e4f3f3218e453fb4a518dfa7b0d9a, type: 2}
   answersLetterYudCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: fe3b2956d32c746fe8029650e35c2c87, type: 2}
+    - {fileID: 11400000, guid: 2cb0fd9ff5fb142ef96bd8326e9fdeb2, type: 2}
   answersLetterChafCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 9a04d49a896d547c8a649211aa00180d, type: 2}
+    - {fileID: 11400000, guid: 95a29e7cc711c44eba693dd261148007, type: 2}
   answersLetterChafCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 4f57d3b51efbd448ba33e0226dc3acb8, type: 2}
+    - {fileID: 11400000, guid: 2e1a303db47a74b188a46e6773bf7aa5, type: 2}
   answersLetterChafCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 699bd65b2ad5d4fbfb28c36a488d8dbd, type: 2}
+    - {fileID: 11400000, guid: a6abf0d0087864b688c69182e2bef7d0, type: 2}
   answersLetterChafCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: c07a6fbd19b43400099e210683d9bf8b, type: 2}
+    - {fileID: 11400000, guid: 9efac8457b21c4923bd58c6522a7cf7a, type: 2}
   answersLetterChafCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 14cb209c2d0644e46923ad7888f71b22, type: 2}
+    - {fileID: 11400000, guid: 991f671085d964feea48a4676dc69fc8, type: 2}
   answersLetterLamedCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: c7830d2aeaef641118a60ef0c1d07a6e, type: 2}
+    - {fileID: 11400000, guid: 0eaa8dfee4feb43939db6daeaa8f68b6, type: 2}
   answersLetterLamedCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 65a1a8caa3f7a47c58620690aefdc33f, type: 2}
+    - {fileID: 11400000, guid: 7ac4ecf58c81e453a87e4523ceaf1ff7, type: 2}
   answersLetterLamedCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: e4c2c04c42e144149a702583d3437695, type: 2}
+    - {fileID: 11400000, guid: c13fc6087fe0849dd957fa7b46fc614c, type: 2}
   answersLetterLamedCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: cb43a5756a96e4d48a0ac94d2fd8bb3a, type: 2}
+    - {fileID: 11400000, guid: 305e749ba5a874348938414e791e2693, type: 2}
   answersLetterLamedCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 95492c87c368944ce82cc18bf5f2933c, type: 2}
+    - {fileID: 11400000, guid: a0f02ee8674284a0db99626d21d686c6, type: 2}
   answersLetterMemCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 4ac8a9181e1d449c18ec2f39abae9093, type: 2}
+    - {fileID: 11400000, guid: 6a64d4164f8bf481a807dcaed6952f16, type: 2}
   answersLetterMemCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 833fff3baafa441b0a70e8781bc3f7e9, type: 2}
+    - {fileID: 11400000, guid: 187b3880cb83e46f296cba61444a644a, type: 2}
   answersLetterMemCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 868c5e10d05fa4be3a8ad602b7c65dd7, type: 2}
+    - {fileID: 11400000, guid: 1d5b3968e2f154abd90387d6854bccb4, type: 2}
   answersLetterMemCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 55be73df1948a4c88a6ebb9ff2b040a7, type: 2}
+    - {fileID: 11400000, guid: 967b8602156654319a7d41a8d71150ce, type: 2}
   answersLetterMemCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 12f26ce5924be41e1b87a337cb8d34a2, type: 2}
+    - {fileID: 11400000, guid: 05395eb60945e48198b72640524456de, type: 2}
   answersLetterNonCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 57b71f565d5f647e1a41d3a6ae13ec33, type: 2}
+    - {fileID: 11400000, guid: 963b88b32b151495ea19dba3fb9e4301, type: 2}
   answersLetterNonCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 0a691142ab037411391fd92350a938b2, type: 2}
+    - {fileID: 11400000, guid: fc15e579e9e4e4557b56092fc73398be, type: 2}
   answersLetterNonCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 80df0b8e9d235444e80429d98ee89a11, type: 2}
+    - {fileID: 11400000, guid: 9c76d0c6fd7004bc6b5f0379c92448ef, type: 2}
   answersLetterNonCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 61f2c472375634f508966eb333ca9097, type: 2}
+    - {fileID: 11400000, guid: 075a123f9afeb49ae9333c82e39b57de, type: 2}
   answersLetterNonCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 92d861c2bcb1b45b6b0a6660796cbee4, type: 2}
+    - {fileID: 11400000, guid: 9d0ac8f1f70364f099eca10194ca912e, type: 2}
   answersLetterSamechCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 9cd618f69dde54a519a60c4c18eb6f5e, type: 2}
+    - {fileID: 11400000, guid: 49d089215341e42b8978de96b35d16e7, type: 2}
   answersLetterSamechCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 5bc6be3c100214f4c93e3746c1ce3121, type: 2}
+    - {fileID: 11400000, guid: 1fd2664a8ba32428f8ec37742f47f6ad, type: 2}
   answersLetterSamechCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: a1e4bc4a2a47f46bda14252c9a4bf6ef, type: 2}
+    - {fileID: 11400000, guid: c952e01ad825742928b98e0ede259b11, type: 2}
   answersLetterSamechCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 5d9a81b978a2248319d448e4676cd491, type: 2}
+    - {fileID: 11400000, guid: 8f63f876869274fba891d0de33a56ce6, type: 2}
   answersLetterSamechCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 57832413e3dea46ee8d15a173d94d2bb, type: 2}
+    - {fileID: 11400000, guid: 2ed5d5167741240ca82be6d3d559af69, type: 2}
   answersLetterAyinCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 51cd3f0141d6b4da9b65f0708a00e954, type: 2}
+    - {fileID: 11400000, guid: 13d86297198524878ae1c7aebf752292, type: 2}
   answersLetterAyinCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 8c2e6b49803b74ad8878d174594a078c, type: 2}
+    - {fileID: 11400000, guid: 7f7ed77287d3d456da1cb88663b73d7b, type: 2}
   answersLetterAyinCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: a850789bed7214bda8fdc0f6f00f565a, type: 2}
+    - {fileID: 11400000, guid: 97f504c8089d043cc9f01f3af63e601f, type: 2}
   answersLetterAyinCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: dfc6cec4cda6f42c9a1fb8276907d58c, type: 2}
+    - {fileID: 11400000, guid: e654091a1aafd4d0baa922b3cd9ab8ba, type: 2}
   answersLetterAyinCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: cc1503aab01714e6d941e9661b5f868a, type: 2}
+    - {fileID: 11400000, guid: f6f9fa053200643549f5a534cbec296c, type: 2}
   answersLetterPayCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 30f38a9b370a84384bf4627e2e918258, type: 2}
+    - {fileID: 11400000, guid: b9c046f8693484fb496781edec242614, type: 2}
   answersLetterPayCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: b94afe5b7c78d4d5185a9d3548ae2100, type: 2}
+    - {fileID: 11400000, guid: f9a6899c1fa07450eb537481df0c9046, type: 2}
   answersLetterPayCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: fb181563e66494ff7821f25989266c7b, type: 2}
+    - {fileID: 11400000, guid: 12515d478130d4f5e9162a5b30d156aa, type: 2}
   answersLetterPayCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 0dd614421aef84e139ea71868015e9f0, type: 2}
+    - {fileID: 11400000, guid: 6178ecd58894e41bf89647aae38b9950, type: 2}
   answersLetterPayCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 638b2cd49766a4d9999664c34bbc2a16, type: 2}
+    - {fileID: 11400000, guid: ada6657c2969945e984dfb569ae0ad29, type: 2}
   answersLetterTsadiCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 217f90f0ff33c4d8d995f5f085bb6759, type: 2}
   answersLetterTsadiCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 3826dea7f2d5a4aa7bca55ce94d0c066, type: 2}
+    - {fileID: 11400000, guid: 6186dc68384214ec89b95dbcf6969efd, type: 2}
   answersLetterTsadiCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: ecc9df50233f44ae989416ad1c6d8765, type: 2}
+    - {fileID: 11400000, guid: 2c7b477809568457580a1f85657581b1, type: 2}
   answersLetterTsadiCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 51a5cd1ed1b414ecb9bf5fa7bcaa5060, type: 2}
+    - {fileID: 11400000, guid: 7903776a2db5e4915bf4d6ceb2da3986, type: 2}
   answersLetterTsadiCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: e73e1d1d89da6446fbdbf87409654f85, type: 2}
+    - {fileID: 11400000, guid: f8e58fae08795497589aee46d430acc8, type: 2}
   answersLetterKufCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 2d6ea09c05f1044c19b78e584aea3edc, type: 2}
+    - {fileID: 11400000, guid: b95a24115f3ca478c930fd07a32fb898, type: 2}
   answersLetterKufCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 369e4ffefe1fe4ecfba6102bc6add8c4, type: 2}
+    - {fileID: 11400000, guid: 7935acb90d6cd42e2a0141973ce6abe3, type: 2}
   answersLetterKufCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 730f0848020ae4a9ea0bb89dd7e24094, type: 2}
+    - {fileID: 11400000, guid: b7e0ae7ca81b5447b930b8bf1ca51bcc, type: 2}
   answersLetterKufCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 837d9afbdd2784e27a6b19d15ec5fa7e, type: 2}
+    - {fileID: 11400000, guid: 6b68e4a14019d484caa010dd3849474d, type: 2}
   answersLetterKufCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 43386d8d9481c45a7a2990584c335773, type: 2}
+    - {fileID: 11400000, guid: 48cfb562d1eb143a3877f788106be575, type: 2}
   answersLetterReshCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 5ff285676bb9847c780822e4a80aebc5, type: 2}
+    - {fileID: 11400000, guid: 4d7bbded1f28643bebb16c79ea07f5a7, type: 2}
   answersLetterReshCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: ed9a04ca7a2cb400a8ccff48f0bdcfd9, type: 2}
+    - {fileID: 11400000, guid: 4e9e42672877343ff91d5f472b5dbaa1, type: 2}
   answersLetterReshCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 123645d5bcdfb4756929203d4b4871cb, type: 2}
+    - {fileID: 11400000, guid: 0e45c587b6cd34c53a83af1600045613, type: 2}
   answersLetterReshCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 871673252a234466ca373de79a63c32c, type: 2}
+    - {fileID: 11400000, guid: 7e514eed096574058aa3daa697b04b5b, type: 2}
   answersLetterReshCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 7ceb933f007964d49977d87f01ddf05c, type: 2}
+    - {fileID: 11400000, guid: 57064a827760d4f7894b43b6d33b9ed2, type: 2}
   answersLetterShinCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: fa918afe77677439386a43479ab7dc71, type: 2}
+    - {fileID: 11400000, guid: 1ffad9f4a2de64994a92157a35e6f727, type: 2}
   answersLetterShinCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: e7eb0b789fff24f4bb8090662953debc, type: 2}
+    - {fileID: 11400000, guid: 4012ba9cdfc9b4d7ea66b755e660e0ce, type: 2}
   answersLetterShinCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: adde678a71ca545f5a56940b4507b305, type: 2}
+    - {fileID: 11400000, guid: 68289c916a5ac4bc4856c38d911247d4, type: 2}
   answersLetterShinCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: a19fbd74300b84e51b4eaf38e01f4721, type: 2}
+    - {fileID: 11400000, guid: 758b0c4e6e09c4f7db2c2b4c42eaac28, type: 2}
   answersLetterShinCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: b25cf83feddcb485bbc67e3bd638445e, type: 2}
+    - {fileID: 11400000, guid: d3c931d6dd3b64deb8820a4fb836a6fe, type: 2}
   answersLetterTavCategoryCountry:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 90b3823d3403f4f4bbb773d6e8a592aa, type: 2}
   answersLetterTavCategoryCity:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: b05fa7d2c4d964ea797d89c7efc5597a, type: 2}
+    - {fileID: 11400000, guid: 27f2454e7be824f6fa3996f11a2975ea, type: 2}
   answersLetterTavCategoryAnimal:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 0bc8806c7e9044459b635c2c99cd86da, type: 2}
+    - {fileID: 11400000, guid: 41530c493b9ea4231bbdd30fbb9803f5, type: 2}
   answersLetterTavCategoryGrowing:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 2e1961537c39f4e6c931fb71cc9a5731, type: 2}
+    - {fileID: 11400000, guid: 5e1e4a75884c34ff0a9164a327989746, type: 2}
   answersLetterTavCategoryInanimate:
-    answerIconData: []
+    answerIconData:
+    - {fileID: 11400000, guid: 9f7da3760d42b4b6ca6d2521da2d63fe, type: 2}
+    - {fileID: 11400000, guid: d5f2f5e2305d046568e6554b1e18e870, type: 2}
 --- !u!4 &2057610840
 Transform:
   m_ObjectHideFlags: 0
