@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Growing
   iconLetter: Pay
-  iconName: 
+  iconName: Pilpel
   icon: {fileID: 0}
   iconScore: 1

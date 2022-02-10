@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Inanimate
   iconLetter: Alef
-  iconName: 
+  iconName: Purse
   icon: {fileID: 0}
   iconScore: 1

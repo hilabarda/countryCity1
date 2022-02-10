@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Growing
   iconLetter: Shin
-  iconName: 
+  iconName: Shezif
   icon: {fileID: 0}
   iconScore: 1

@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Zayin
-  iconName: Zvov
+  iconName: Fly
   icon: {fileID: 9103160231874435248, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

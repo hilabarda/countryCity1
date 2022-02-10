@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Inanimate
   iconLetter: Shin
-  iconName: 
+  iconName: Sun
   icon: {fileID: 0}
   iconScore: 1

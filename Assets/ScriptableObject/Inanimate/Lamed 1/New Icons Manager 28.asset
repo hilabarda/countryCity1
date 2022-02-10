@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Inanimate
   iconLetter: Lamed
-  iconName: 
+  iconName: Bread
   icon: {fileID: 0}
   iconScore: 1

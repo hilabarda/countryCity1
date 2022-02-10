@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Inanimate
   iconLetter: Dalet
-  iconName: 
+  iconName: Donnut
   icon: {fileID: 0}
   iconScore: 1

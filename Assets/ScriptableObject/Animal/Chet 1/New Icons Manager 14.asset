@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Chet
-  iconName: Chilazon
+  iconName: Snail
   icon: {fileID: 3607843116140751427, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
   iconScore: 1

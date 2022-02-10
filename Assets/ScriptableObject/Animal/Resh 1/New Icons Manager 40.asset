@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Resh
-  iconName: 
+  iconName: Reem
   icon: {fileID: 0}
   iconScore: 1

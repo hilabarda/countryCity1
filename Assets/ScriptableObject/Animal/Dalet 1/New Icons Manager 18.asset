@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Dalet
-  iconName: 
+  iconName: Dolphin
   icon: {fileID: 0}
   iconScore: 1

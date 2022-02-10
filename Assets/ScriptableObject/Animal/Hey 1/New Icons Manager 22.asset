@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   category: Animal
   iconLetter: Hay
-  iconName: 
+  iconName: Hypo
   icon: {fileID: 0}
   iconScore: 1
