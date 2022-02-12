@@ -7,11 +7,11 @@ public class Renderer : MonoBehaviour
 {
     private MeshRenderer myrenderer;
     [SerializeField]
-    private Sprite sprite;
+    private Texture texture;
 
     private void Start()
     {
         myrenderer = GetComponent<MeshRenderer>();
-        myrenderer.material.mainTexture = sprite.texture;
+        myrenderer.material.mainTexture = texture;
     }
 }

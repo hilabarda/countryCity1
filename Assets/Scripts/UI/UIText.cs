@@ -7,16 +7,18 @@ using Random = UnityEngine.Random;
 public class UIText : MonoBehaviour
 {
     [SerializeField]
-    private GameObject [] gameObjectLetters;
+    public GameObject [] gameObjectLetters;
+
     
 
     private void Start()
     {
         StartCoroutine(TextShow());
+        
     }
 
 
-    private IEnumerator TextShow()
+    public IEnumerator TextShow()
     {
         yield return new WaitForSeconds(1.5f);
         int randomLetters = Random.Range(0, 22);

@@ -6,11 +6,11 @@ using Random = UnityEngine.Random;
 public class pickUp : MonoBehaviour
 {
     [SerializeField]
-    private GameObject prefab;
+    private GameObject []  prefab;
     [SerializeField]
     private float minTime = 1;
     [SerializeField]
-    private float maxTime = 1.5f;
+    private float maxTime = 1.1f;
     
     [SerializeField]
     private GameObject[] pickupPlane;
@@ -27,10 +27,12 @@ public class pickUp : MonoBehaviour
         {
             isCatch.Add(i, false);
         }
+        
     }
 
     private IEnumerator pickUpRandom()
     {
+        yield return new WaitForSeconds(5.8f);
         while (true)
         {
             yield return new WaitForSeconds(Random.Range(minTime, maxTime));
@@ -42,17 +44,15 @@ public class pickUp : MonoBehaviour
     {
         //transform.localPosition = new Vector3(Random.Range(minPos, maxPos), 0.001f, Random.Range(minPos, maxPos));
         int randomIndex = Random.Range(0, pickupPlane.Length - 1);
+        int randomAnswers = Random.Range(0, prefab.Length - 1);
 
         if(isCatch[randomIndex] == false)
         {
-            GameObject game = Instantiate(prefab, pickupPlane[randomIndex].transform);
+            GameObject game = Instantiate(prefab[randomAnswers], pickupPlane[randomIndex].transform);
             isCatch[randomIndex] = true;
         }
        
-
-       
-        
-        
+     
     }
    
 }

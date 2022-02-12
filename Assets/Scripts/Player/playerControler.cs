@@ -28,6 +28,9 @@ public class playerControler : MonoBehaviour
     [SerializeField]
     private LayerMask groundLayer;
 
+    private Vector3 resetPos;
+    private float yPos = 0.5f;
+
 
     private const string VERTICAL_AXIS = "Vertical";
     private const string HORIZPNTAL_AXIS = "Horizontal";
@@ -48,6 +51,7 @@ public class playerControler : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         BoxCollider = GetComponent<BoxCollider>();
         gameManager = GameObject.FindObjectOfType<GameManager>().GetComponent<GameManager>();
+        resetPos = transform.position;
     }
 
     private void Update()
@@ -72,7 +76,10 @@ public class playerControler : MonoBehaviour
             }
         }
       
-        
+        if(transform.position.y < yPos)
+        {
+            transform.position = resetPos;
+        }
     }
 
 
