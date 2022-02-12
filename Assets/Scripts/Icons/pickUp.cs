@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Random = UnityEngine.Random;
+using UnityEngine.Events;
 
 public class pickUp : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject []  prefab;
+    public GameObject []  prefab;
     [SerializeField]
     private float minTime = 1;
     [SerializeField]
@@ -15,13 +15,17 @@ public class pickUp : MonoBehaviour
     [SerializeField]
     private GameObject[] pickupPlane;
 
+    public UnityAction<SpriteRenderer> OnCollected;
+
     private Dictionary<int, bool> isCatch = new Dictionary<int, bool>();
 
-
+     
 
     private void Start()
     {
         StartCoroutine(pickUpRandom());
+
+        //prefab prefab = GetComponentInChildren<SpriteRenderer>()
 
         for(int i = 0; i < pickupPlane.Length; i++)
         {
@@ -54,5 +58,11 @@ public class pickUp : MonoBehaviour
        
      
     }
+
+    //public SpriteRenderer IconAnswer
+    //{
+        //get { return prefab}
+        
+    //}
    
 }

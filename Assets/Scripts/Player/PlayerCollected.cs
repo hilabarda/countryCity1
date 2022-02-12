@@ -12,18 +12,18 @@ public class PlayerCollected : MonoBehaviour
     private KeyCode collectedKey;
     [SerializeField]
     private GameObject currentPickUp;
-    private Destroyer destroyer;
+    private pickUp pickUpAnswer;
 
 
     private void Start()
     {
         controler = GetComponent<playerControler>();
-        destroyer = GetComponent<Destroyer>();
+        pickUpAnswer = GetComponent<pickUp>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("picUp"))
+        if (other.gameObject.CompareTag("pickUp"))
         {
             currentPickUp = other.gameObject;
             buttem = true;
@@ -32,7 +32,7 @@ public class PlayerCollected : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.CompareTag("picUp"))
+        if (other.gameObject.CompareTag("pickUp"))
         {
             currentPickUp = null;
             buttem = false;
@@ -44,7 +44,6 @@ public class PlayerCollected : MonoBehaviour
         if(Input.GetKeyDown(collectedKey) && buttem == true && currentPickUp != null)
         {
             score.AddScore(controler.myPlayer);
-            //Destroy(currentPickUp.gameObject);
 
             if(currentPickUp != null)
             {

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1524514026766313773}
   m_Layer: 0
   m_Name: Hex23
-  m_TagString: picUp
+  m_TagString: pickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,7 +79,7 @@ GameObject:
   - component: {fileID: 4028290479371768054}
   m_Layer: 0
   m_Name: Quad
-  m_TagString: Untagged
+  m_TagString: pickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 2910629954612448538}
   m_Layer: 0
   m_Name: GrowingA2
-  m_TagString: picUp
+  m_TagString: pickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
