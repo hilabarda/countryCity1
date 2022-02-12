@@ -7,11 +7,11 @@ public class DisplayIcon : MonoBehaviour
 {
     public IconsManager iconsManager;
     [SerializeField]
-    private Image iconImage;
+    private Sprite iconImage;
 
     private void Start()
     {
-        iconImage.sprite = iconsManager.icon;
+        iconImage = iconsManager.icon;
     }
 
 }

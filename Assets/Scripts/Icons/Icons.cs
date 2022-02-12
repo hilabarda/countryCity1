@@ -305,13 +305,15 @@ public class Icons : MonoBehaviour
 
     Dictionary<Letters, Dictionary<Category, AnswersData>> answersSprites = new Dictionary<Letters, Dictionary<Category, AnswersData>>();
 
-    
-
-
+    [SerializeField]
+    private UIText Text;
+    public GameObject [] myLetter;
 
 
     private void Start()
     {
+        
+
         answerDataDictLetterAlef.Add(Category.Country, answersLetterAlefCategoryCountry);
         answerDataDictLetterAlef.Add(Category.City, answersLetterAlefCategoryCity);
         answerDataDictLetterAlef.Add(Category.Animal, answersLetterAlefCategoryAnimal);
@@ -470,7 +472,7 @@ public class Icons : MonoBehaviour
 
     }
 
-    private List<Sprite> GetAnswers (Letters letter, Category category)
+    public List<Sprite> GetAnswers (Letters letter, Category category)
     {
         List<IconsManager> a1 = answersSprites[Letters.Alef][Category.Country].answerIconData;
      
