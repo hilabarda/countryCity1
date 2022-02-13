@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerCollected : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class PlayerCollected : MonoBehaviour
     [SerializeField]
     private GameObject currentPickUp;
     private pickUp pickUpAnswer;
+
+    public UnityAction<SpriteRenderer> OnCollectedPickUp;
 
 
     private void Start()
@@ -47,6 +50,8 @@ public class PlayerCollected : MonoBehaviour
 
             if(currentPickUp != null)
             {
+                SpriteRenderer sprite = currentPickUp.transform.parent.GetComponent<MySprite>().quad;
+                OnCollectedPickUp?.Invoke(sprite);
                 Destroy(currentPickUp.transform.parent.gameObject);
                 currentPickUp = null;
             }

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class UIImage : MonoBehaviour
 {
     [SerializeField]
-    private Image imageCollectedP1;
+    private RawImage imageCollectedP1;
     [SerializeField]
     private RawImage[] imageCollectedP2;
     [SerializeField]
@@ -30,8 +30,8 @@ public class UIImage : MonoBehaviour
 
     private void Start()
     {
-        sprite = GetComponent<Sprite>();
-        sprite.OnCollected += ChangeImage;
+        Pcollected.OnCollectedPickUp += ChangeImage;
+        imageCollectedP1 = GetComponent<RawImage>();
     }
 
    
@@ -39,7 +39,9 @@ public class UIImage : MonoBehaviour
 
     private void ChangeImage(SpriteRenderer Icons)
     {
-        imageCollectedP1.GetComponent<Image>().sprite = sprite.GetComponent<SpriteRenderer>().sprite;
+1       //Texture newTexture = Icons.material.mainTexture;
+        imageCollectedP1.texture = newTexture;
+
         
 
     }
