@@ -5,11 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    private void Update()
+    public void ExitGame()
     {
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            SceneManager.LoadScene(2);
-        }
+        Application.Quit();
     }
 }

@@ -26,7 +26,6 @@ public class pickUp : MonoBehaviour
     {
         StartCoroutine(pickUpRandom());
 
-        sprite = GetComponent<Sprite>();
 
         for(int i = 0; i < pickupPlane.Length; i++)
         {
@@ -60,10 +59,6 @@ public class pickUp : MonoBehaviour
      
     }
 
-    //public SpriteRenderer IconAnswer
-    //{
-        //get { return prefab}
-        
-    //}
+  
    
 }

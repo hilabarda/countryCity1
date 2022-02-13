@@ -12,7 +12,7 @@ public class MySprite : MonoBehaviour
 
     private void Start()
     {
-        //quad = gameObject.GetComponent<SpriteRenderer>();
+        quad = gameObject.GetComponent<SpriteRenderer>();
 
     }
 

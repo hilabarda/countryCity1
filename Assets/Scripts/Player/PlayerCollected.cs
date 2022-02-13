@@ -50,8 +50,9 @@ public class PlayerCollected : MonoBehaviour
 
             if(currentPickUp != null)
             {
-                SpriteRenderer sprite = currentPickUp.transform.parent.GetComponent<MySprite>().quad;
-                OnCollectedPickUp?.Invoke(sprite);
+                //SpriteRenderer sprite = currentPickUp.transform.parent.GetComponent<MySprite>().quad;
+                //SpriteRenderer sprite = currentPickUp.GetComponent<MySprite>().quad;
+                //OnCollectedPickUp?.Invoke(sprite);
                 Destroy(currentPickUp.transform.parent.gameObject);
                 currentPickUp = null;
             }

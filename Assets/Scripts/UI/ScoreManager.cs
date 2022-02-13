@@ -26,9 +26,9 @@ public class ScoreManager : MonoBehaviour
         score.scoreP1 = PlayerPrefs.GetInt(" ");
         score.scoreP2 = PlayerPrefs.GetInt(" ");
 
-        scoreTextP1.text = " " + score.scoreP1;
+        scoreTextP1.text = " " + PlayerPrefs.GetInt(" ", score.scoreP1);
         Debug.Log("SP1");
-        scoreTextP2.text = " " + score.scoreP2;
+        scoreTextP2.text = " " + PlayerPrefs.GetInt(" ", score.scoreP2);
         Debug.Log("SP2");
     }
 }
