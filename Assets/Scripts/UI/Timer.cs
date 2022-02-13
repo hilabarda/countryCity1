@@ -12,7 +12,7 @@ public class Timer : MonoBehaviour
     [SerializeField]
     private GameObject score;
 
-    private int time = 30;
+    private int time = 60;
 
     private void Awake()
     {

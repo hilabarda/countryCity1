@@ -6,31 +6,44 @@ using UnityEngine.UI;
 public class UIImage : MonoBehaviour
 {
     [SerializeField]
-    private RawImage [] imageCollectedP1;
+    private Image imageCollectedP1;
     [SerializeField]
     private RawImage[] imageCollectedP2;
     [SerializeField]
-    private GameManager gameManager;
-    [SerializeField]
     private Texture texture;
-    private Icons currentIcons;
     [SerializeField]
     private PlayerCollected Pcollected;
+    [SerializeField]
+    private GameObject[] country;
+    [SerializeField]
+    private GameObject[] city;
+    [SerializeField]
+    private GameObject[] animal;
+    [SerializeField]
+    private GameObject[] growing;
+    [SerializeField]
+    private GameObject[] inanimate;
+    private pickUp pickUpAnswer;
+
+    
+
 
     private void Start()
     {
-        gameManager.OnIconCollected += ChangeImage;
-        GameObject.FindObjectOfType<Icons>();
+        pickUpAnswer = GetComponent<pickUp>();
+        pickUpAnswer.OnCollected += ChangeImage;
+    }
+
+    private void Update()
+    {
         
     }
 
-   
 
-    private void ChangeImage(int Icons)
+    private void ChangeImage(SpriteRenderer Icons)
     {
-
+        //imageCollectedP1.sprite = country.
         
-
 
     }
 }
