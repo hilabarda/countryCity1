@@ -1,38 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Random = UnityEngine.Random;
-using UnityEngine.Events;
 
-
-public class pickUp : MonoBehaviour
+public class NoAnswerB : MonoBehaviour
 {
-    public GameObject []  prefab;
+    [SerializeField]
+    private GameObject[] noAnswers;
     [SerializeField]
     private float minTime = 1;
     [SerializeField]
     private float maxTime = 1.1f;
-    
+
     [SerializeField]
     private GameObject[] pickupPlane;
 
-    private Sprite sprite;
-
     private Dictionary<int, bool> isCatch = new Dictionary<int, bool>();
 
-     
+
 
     private void Start()
     {
         StartCoroutine(pickUpRandom());
 
-        sprite = GetComponent<Sprite>();
-
-        for(int i = 0; i < pickupPlane.Length; i++)
+        for (int i = 0; i < pickupPlane.Length; i++)
         {
             isCatch.Add(i, false);
         }
-        
+
     }
 
     private IEnumerator pickUpRandom()
@@ -49,21 +43,15 @@ public class pickUp : MonoBehaviour
     {
         //transform.localPosition = new Vector3(Random.Range(minPos, maxPos), 0.001f, Random.Range(minPos, maxPos));
         int randomIndex = Random.Range(0, pickupPlane.Length - 1);
-        int randomAnswers = Random.Range(0, prefab.Length - 1);
+        int randomnoAnswers = Random.Range(0, noAnswers.Length - 1);
 
-        if(isCatch[randomIndex] == false)
+        if (isCatch[randomIndex] == false)
         {
-            GameObject game = Instantiate(prefab[randomAnswers], pickupPlane[randomIndex].transform);
+            GameObject noanswers = Instantiate(noAnswers[randomnoAnswers], pickupPlane[randomIndex].transform);
             isCatch[randomIndex] = true;
         }
-       
-     
+
+
     }
 
-    //public SpriteRenderer IconAnswer
-    //{
-        //get { return prefab}
-        
-    //}
-   
 }

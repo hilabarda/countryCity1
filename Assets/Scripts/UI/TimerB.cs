@@ -4,9 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class Timer : MonoBehaviour
+public class TimerB : MonoBehaviour
 {
-    public Timer timer;
+    public Timer timerB;
     [SerializeField]
     private Text text;
     [SerializeField]
@@ -16,7 +16,7 @@ public class Timer : MonoBehaviour
 
     private void Awake()
     {
-        timer = this;
+        timerB = gameObject.GetComponent<Timer>();
     }
 
     private void Start()
@@ -27,9 +27,9 @@ public class Timer : MonoBehaviour
 
     private void Update()
     {
-        if(time == 0)
+        if (time == 0)
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
     }
 

@@ -7,8 +7,8 @@ public class Score : MonoBehaviour
     private Text scoreTextP1;
     [SerializeField]
     private Text scoreTextP2;
-    private int scoreP1 = 0;
-    private int scoreP2 = 0;
+    public int scoreP1 = 0;
+    public int scoreP2 = 0;
     [SerializeField]
     private GameManager gameManager;
     [SerializeField]
@@ -32,13 +32,15 @@ public class Score : MonoBehaviour
         {
             scoreP1++;
             scoreTextP1.text = scoreP1.ToString();
-            PlayerPrefs.SetInt("SP1 ", scoreP1);
+            PlayerPrefs.SetInt(" ", scoreP1);
+            PlayerPrefs.Save();
         }
         else if (pNumber == PlayerNumber.Player2)
         {
             scoreP2++;
             scoreTextP2.text = scoreP2.ToString();
-            PlayerPrefs.SetInt("SP2 ", scoreP1);
+            PlayerPrefs.SetInt(" ", scoreP2);
+            PlayerPrefs.Save();
         }
 
     }

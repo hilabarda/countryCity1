@@ -23,26 +23,23 @@ public class UIImage : MonoBehaviour
     private GameObject[] growing;
     [SerializeField]
     private GameObject[] inanimate;
-    private pickUp pickUpAnswer;
+    private Sprite sprite;
 
     
 
 
     private void Start()
     {
-        pickUpAnswer = GetComponent<pickUp>();
-        pickUpAnswer.OnCollected += ChangeImage;
+        sprite = GetComponent<Sprite>();
+        sprite.OnCollected += ChangeImage;
     }
 
-    private void Update()
-    {
-        
-    }
+   
 
 
     private void ChangeImage(SpriteRenderer Icons)
     {
-        //imageCollectedP1.sprite = country.
+        imageCollectedP1.GetComponent<Image>().sprite = sprite.GetComponent<SpriteRenderer>().sprite;
         
 
     }

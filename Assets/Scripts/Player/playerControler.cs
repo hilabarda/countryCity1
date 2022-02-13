@@ -30,6 +30,7 @@ public class playerControler : MonoBehaviour
 
     private Vector3 resetPos;
     private float yPos = 0.5f;
+    private float rotate;
 
 
     private const string VERTICAL_AXIS = "Vertical";
@@ -79,6 +80,7 @@ public class playerControler : MonoBehaviour
         if(transform.position.y < yPos)
         {
             transform.position = resetPos;
+            transform.rotation = Quaternion.identity;
         }
     }
 

@@ -14,10 +14,21 @@ public class ScoreManager : MonoBehaviour
 
     private void Start()
     {
-
+        score = GetComponent<Score>();
         scoreTextP1 = GetComponent<Text>();
         scoreTextP2 = GetComponent<Text>();
-        scoreTextP1.text = "SP1 " + PlayerPrefs.GetInt(" ").ToString();
-        scoreTextP2.text = "SP2 " + PlayerPrefs.GetInt(" ").ToString();
+        GetScore();
+
+    }
+
+    private void GetScore()
+    {
+        score.scoreP1 = PlayerPrefs.GetInt(" ");
+        score.scoreP2 = PlayerPrefs.GetInt(" ");
+
+        scoreTextP1.text = " " + score.scoreP1;
+        Debug.Log("SP1");
+        scoreTextP2.text = " " + score.scoreP2;
+        Debug.Log("SP2");
     }
 }
