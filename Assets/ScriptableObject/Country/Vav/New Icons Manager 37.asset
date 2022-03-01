@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 37
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Vav
   iconName: Venezuela
-  icon: {fileID: 8958836591253096440, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 0173dc47931ce4efbac28b7141e8b31b, type: 3}
   iconScore: 1

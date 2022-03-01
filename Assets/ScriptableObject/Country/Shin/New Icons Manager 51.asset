@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 51
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Shin
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: Sweden
+  gameObjectIcon: {fileID: 8332141053287989803, guid: b23a8659f6891486399238ccd19d0d6b, type: 3}
   iconScore: 1

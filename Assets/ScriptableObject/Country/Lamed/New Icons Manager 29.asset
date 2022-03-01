@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 29
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Lamed
   iconName: Lebanon
-  icon: {fileID: 422176080529009643, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 49bcb9b3de4954bf598f9308253eaa0b, type: 3}
   iconScore: 1

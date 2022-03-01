@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 43
   m_EditorClassIdentifier: 
-  category: Animal
+  types: 2
   iconLetter: Tav
   iconName: Chicken
-  icon: {fileID: -3587436669781848673, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: bd09418092c3d401f895fccda92992c9, type: 3}
   iconScore: 1

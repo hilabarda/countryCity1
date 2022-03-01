@@ -3,25 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+public enum CategoryIcon
+{
+    Country,
+    City,
+    Animal,
+    Growing,
+    Inanimate
+
+}
+
 [CreateAssetMenu(fileName = "New Icons Manager", menuName = "Icon", order = 51)]
 
 public class IconsManager : ScriptableObject
 {
     [SerializeField]
-    private string category;
+    private CategoryIcon types;
     [SerializeField]
     private string iconLetter;
     [SerializeField]
     private string iconName;
     [SerializeField]
-    public Sprite icon;
+    public GameObject gameObjectIcon;
     [SerializeField]
     private int iconScore;
 
-    public string Category => category;
+    public CategoryIcon Types => types;
     public string IconLetter => iconLetter;
     public string IconName => iconName;
-    public Sprite Icon => icon;
+    public GameObject GameObjectIcon => gameObjectIcon;
     public int IconScore => iconScore;
 
 }

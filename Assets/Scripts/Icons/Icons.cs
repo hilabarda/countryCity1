@@ -472,15 +472,15 @@ public class Icons : MonoBehaviour
 
     }
 
-    public List<Sprite> GetAnswers (Letters letter, Category category)
+    public List<GameObject> GetAnswers (Letters letter, Category category)
     {
         List<IconsManager> a1 = answersSprites[Letters.Alef][Category.Country].answerIconData;
      
-        List<Sprite> spritesAns = null;
+        List<GameObject> spritesAns = null;
 
         for(int i = 0; i < a1.Count; i++)
         {
-            spritesAns.Add(a1[i].icon);
+            spritesAns.Add(a1[i].gameObjectIcon);
         }
 
         return spritesAns;

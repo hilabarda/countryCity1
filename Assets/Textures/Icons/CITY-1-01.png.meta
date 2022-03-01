@@ -1,0 +1,1128 @@
+fileFormatVersion: 2
+guid: da924c7d5f8b748b4978740ee42294f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4454955739257690821
+    second: CITY-1-01_0
+  - first:
+      213: -2031469425771576988
+    second: CITY-1-01_1
+  - first:
+      213: 5213137645207141154
+    second: CITY-1-01_2
+  - first:
+      213: 3853701924265132206
+    second: CITY-1-01_3
+  - first:
+      213: -50102896079092267
+    second: CITY-1-01_4
+  - first:
+      213: -6036031562472710169
+    second: CITY-1-01_5
+  - first:
+      213: -483680609008956104
+    second: CITY-1-01_6
+  - first:
+      213: 6491624752850580425
+    second: CITY-1-01_7
+  - first:
+      213: -3982268663057447383
+    second: CITY-1-01_8
+  - first:
+      213: 4307533713131876559
+    second: CITY-1-01_9
+  - first:
+      213: -4343344102211360545
+    second: CITY-1-01_10
+  - first:
+      213: 8823055109779455596
+    second: CITY-1-01_11
+  - first:
+      213: 930184261320664657
+    second: CITY-1-01_12
+  - first:
+      213: -96269572901524779
+    second: CITY-1-01_13
+  - first:
+      213: 8088207347696454379
+    second: CITY-1-01_14
+  - first:
+      213: 7063322731835626151
+    second: CITY-1-01_15
+  - first:
+      213: -6389615685600457011
+    second: CITY-1-01_16
+  - first:
+      213: 1309875623290375564
+    second: CITY-1-01_17
+  - first:
+      213: 4884808165084179393
+    second: CITY-1-01_18
+  - first:
+      213: 6178123510914559298
+    second: CITY-1-01_19
+  - first:
+      213: 7843623591824179455
+    second: CITY-1-01_20
+  - first:
+      213: 2564151175912438671
+    second: CITY-1-01_21
+  - first:
+      213: -3314839127222260378
+    second: CITY-1-01_22
+  - first:
+      213: -6572748361258970820
+    second: CITY-1-01_23
+  - first:
+      213: -495812894332278471
+    second: CITY-1-01_24
+  - first:
+      213: 1998284844905955856
+    second: CITY-1-01_25
+  - first:
+      213: -4451760675467441812
+    second: CITY-1-01_26
+  - first:
+      213: -4857966792616141122
+    second: CITY-1-01_27
+  - first:
+      213: 5707340671097644058
+    second: CITY-1-01_28
+  - first:
+      213: -4438360059740899277
+    second: CITY-1-01_29
+  - first:
+      213: 4428358248332903864
+    second: CITY-1-01_30
+  - first:
+      213: 7898666881296223960
+    second: CITY-1-01_31
+  - first:
+      213: 4193018596906998287
+    second: CITY-1-01_32
+  - first:
+      213: 3787441084856615042
+    second: CITY-1-01_33
+  - first:
+      213: 6489772007729513415
+    second: CITY-1-01_34
+  - first:
+      213: -3555367746540288618
+    second: CITY-1-01_35
+  - first:
+      213: 4534870034057843886
+    second: CITY-1-01_36
+  - first:
+      213: -2096285428678433203
+    second: CITY-1-01_37
+  - first:
+      213: -188710673284978483
+    second: CITY-1-01_38
+  - first:
+      213: -768644310708878354
+    second: CITY-1-01_39
+  - first:
+      213: -5064285689345419328
+    second: CITY-1-01_40
+  - first:
+      213: -8945416417870010022
+    second: CITY-1-01_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CITY-1-01_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1513
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cada8834ae23dd30800000000000000
+      internalID: 4454955739257690821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1513
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46181d80255cec3e0800000000000000
+      internalID: -2031469425771576988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_2
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1513
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bb9c36119c85840800000000000000
+      internalID: 5213137645207141154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1513
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0001a7b791b7530800000000000000
+      internalID: 3853701924265132206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_4
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1513
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ccf47eaffd4ff0800000000000000
+      internalID: -50102896079092267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_5
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1513
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef94c13645bb3ca0800000000000000
+      internalID: -6036031562472710169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1312
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83dc64b7c0f9949f0800000000000000
+      internalID: -483680609008956104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1312
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3bac09152e61a50800000000000000
+      internalID: 6491624752850580425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_8
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1312
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9268a4affb32cb8c0800000000000000
+      internalID: -3982268663057447383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_9
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1312
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0be3df61f67cb30800000000000000
+      internalID: 4307533713131876559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_10
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1312
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd867621d8759b3c0800000000000000
+      internalID: -4343344102211360545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_11
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1312
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e791430e9c17a70800000000000000
+      internalID: 8823055109779455596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1111
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1566da748ada8ec00800000000000000
+      internalID: 930184261320664657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_13
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1111
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daa680655bf9aef0800000000000000
+      internalID: -96269572901524779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_14
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1111
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beac625cab51f3070800000000000000
+      internalID: 8088207347696454379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_15
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1111
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2110df996f50260800000000000000
+      internalID: 7063322731835626151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_16
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 1111
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce458833668357a0800000000000000
+      internalID: -6389615685600457011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_17
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 910
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d8a2a70fc9d2210800000000000000
+      internalID: 1309875623290375564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 910
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb25c335235ac340800000000000000
+      internalID: 4884808165084179393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_19
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 910
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d2d8e999a1db550800000000000000
+      internalID: 6178123510914559298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_20
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 910
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0cd8679162adc60800000000000000
+      internalID: 7843623591824179455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_21
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 910
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b39a6b8e1b59320800000000000000
+      internalID: 2564151175912438671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 709
+        width: 188
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66de95660635ff1d0800000000000000
+      internalID: -3314839127222260378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 709
+        width: 188
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31d0297038e8c4a0800000000000000
+      internalID: -6572748361258970820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_24
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 709
+        width: 188
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939244eacc48e19f0800000000000000
+      internalID: -495812894332278471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_25
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 709
+        width: 188
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0128aa4aa755bbb10800000000000000
+      internalID: 1998284844905955856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_26
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 709
+        width: 188
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69c5b9804b2832c0800000000000000
+      internalID: -4451760675467441812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_27
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 507
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebe9873d0f8059cb0800000000000000
+      internalID: -4857966792616141122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 507
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a142ae00a1c843f40800000000000000
+      internalID: 5707340671097644058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_29
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 507
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338bcd58a07c762c0800000000000000
+      internalID: -4438360059740899277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_30
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 507
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5cd0a4d50b47d30800000000000000
+      internalID: 4428358248332903864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_31
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 507
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8decdcafda3bd9d60800000000000000
+      internalID: 7898666881296223960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_32
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 306
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a9f35c238903a30800000000000000
+      internalID: 4193018596906998287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 306
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28049969991bf8430800000000000000
+      internalID: 3787441084856615042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_34
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 306
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3cdf9b14d401a50800000000000000
+      internalID: 6489772007729513415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_35
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 306
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695c5952fdbc8aec0800000000000000
+      internalID: -3555367746540288618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_36
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 306
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4d49ae4481fee30800000000000000
+      internalID: 4534870034057843886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_37
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 105
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d466bcb528f78e2e0800000000000000
+      internalID: -2096285428678433203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 105
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8268974a0916df0800000000000000
+      internalID: -188710673284978483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_39
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 105
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee38295621a3555f0800000000000000
+      internalID: -768644310708878354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_40
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 105
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7d87d4ffa08b9b0800000000000000
+      internalID: -5064285689345419328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CITY-1-01_41
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 105
+        width: 188
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5929eca92f7bd380800000000000000
+      internalID: -8945416417870010022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 477250be629344b5498d99e4ef3ddec2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

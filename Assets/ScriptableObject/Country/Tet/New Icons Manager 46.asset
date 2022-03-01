@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 46
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Tet
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: Tonga
+  gameObjectIcon: {fileID: 8332141053287989803, guid: ffb07a2fd23d84585b26a17c4d18dd58, type: 3}
   iconScore: 1

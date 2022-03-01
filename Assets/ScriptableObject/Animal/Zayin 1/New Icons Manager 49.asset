@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 49
   m_EditorClassIdentifier: 
-  category: Animal
+  types: 2
   iconLetter: Zayin
-  iconName: Fly
-  icon: {fileID: 9103160231874435248, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
+  iconName: Zvov
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 804dc1ad0c9fe474f860a236e9b3b93a, type: 3}
   iconScore: 1

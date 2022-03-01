@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 40
   m_EditorClassIdentifier: 
-  category: City
+  types: 1
   iconLetter: Resh
-  iconName: Raanana
-  icon: {fileID: 1917797059771183685, guid: 1891b6f53a59c4efa830dca4943dd28e, type: 3}
+  iconName: Ramat Hsaron
+  gameObjectIcon: {fileID: 8332141053287989803, guid: abe277dc9fbdc4e909de0b467671eae2, type: 3}
   iconScore: 1

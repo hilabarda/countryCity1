@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 20
   m_EditorClassIdentifier: 
-  category: City
+  types: 1
   iconLetter: Gimel
   iconName: Givataim
-  icon: {fileID: 2098440647183523243, guid: 1891b6f53a59c4efa830dca4943dd28e, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 66269e091380046cabc9dc0fdfe5ca04, type: 3}
   iconScore: 1

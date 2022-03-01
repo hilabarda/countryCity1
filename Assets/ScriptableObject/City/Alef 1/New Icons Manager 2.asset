@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 2
   m_EditorClassIdentifier: 
-  category: City
+  types: 1
   iconLetter: Alef
   iconName: Eilat
-  icon: {fileID: -4444945705331570184, guid: 1891b6f53a59c4efa830dca4943dd28e, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 412b3283f25354b4985dfe8a988b6b5f, type: 3}
   iconScore: 1

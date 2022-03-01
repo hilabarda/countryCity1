@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 35
   m_EditorClassIdentifier: 
-  category: Animal
+  types: 2
   iconLetter: Yud
-  iconName: Pigeon
-  icon: {fileID: 0}
+  iconName: Yanshuf
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 87e0fbce1f8af4b6e8bdbf2de4d1a432, type: 3}
   iconScore: 1

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 22
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Hay
   iconName: Hungary
-  icon: {fileID: 7262306419948618334, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 4368ed29a809e4566bb61cbc22fb150f, type: 3}
   iconScore: 1

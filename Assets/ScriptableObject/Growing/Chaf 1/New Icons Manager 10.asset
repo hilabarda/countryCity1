@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 10
   m_EditorClassIdentifier: 
-  category: Growing
+  types: 3
   iconLetter: Chaf
   iconName: Cruv
-  icon: {fileID: 0}
+  gameObjectIcon: {fileID: 0}
   iconScore: 1

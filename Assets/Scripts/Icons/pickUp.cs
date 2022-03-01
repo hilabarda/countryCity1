@@ -7,7 +7,7 @@ using UnityEngine.Events;
 
 public class pickUp : MonoBehaviour
 {
-    public GameObject []  prefab;
+    public GameObject  prefab;
     [SerializeField]
     private float minTime = 1;
     [SerializeField]
@@ -16,7 +16,6 @@ public class pickUp : MonoBehaviour
     [SerializeField]
     private GameObject[] pickupPlane;
 
-    private Sprite sprite;
 
     private Dictionary<int, bool> isCatch = new Dictionary<int, bool>();
 
@@ -48,11 +47,11 @@ public class pickUp : MonoBehaviour
     {
         //transform.localPosition = new Vector3(Random.Range(minPos, maxPos), 0.001f, Random.Range(minPos, maxPos));
         int randomIndex = Random.Range(0, pickupPlane.Length - 1);
-        int randomAnswers = Random.Range(0, prefab.Length - 1);
+        //int randomAnswers = Random.Range(0, prefab.Length - 1);
 
         if(isCatch[randomIndex] == false)
         {
-            GameObject game = Instantiate(prefab[randomAnswers], pickupPlane[randomIndex].transform);
+            GameObject game = Instantiate(prefab, pickupPlane[randomIndex].transform);
             isCatch[randomIndex] = true;
         }
        

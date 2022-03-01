@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 34
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Yud
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: Israel
+  gameObjectIcon: {fileID: 8332141053287989803, guid: d3cb6c5e646cd453a89e6acf35b127b4, type: 3}
   iconScore: 1

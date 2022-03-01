@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 8
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Bet
   iconName: United Kingdom
-  icon: {fileID: -826560225378677492, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 13a1b5b554f4d4380910532e4d027c02, type: 3}
   iconScore: 1

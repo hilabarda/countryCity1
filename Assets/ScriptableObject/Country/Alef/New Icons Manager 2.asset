@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 2
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Alef
   iconName: Italy
-  icon: {fileID: -5747492413486022957, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: acdc87467e1e14934a5aa4bad6dbac03, type: 3}
   iconScore: 1

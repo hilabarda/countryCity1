@@ -166,7 +166,6 @@ GameObject:
   - component: {fileID: 7020279995084960297}
   - component: {fileID: 2497936195189420904}
   - component: {fileID: 2910629954612448538}
-  - component: {fileID: 8567345349641509160}
   m_Layer: 0
   m_Name: Hex23
   m_TagString: picUp
@@ -258,17 +257,3 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 09800fb7ecd7dfa499d1a9b3e9414605, type: 3}
---- !u!114 &8567345349641509160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8332141053287989803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1070bec2eab7c4ae190dde3f685e3199, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iconsManager: {fileID: 11400000, guid: 3a47ce02ef7fb4f7c9ba76f150c7a926, type: 2}
-  iconImage: {fileID: 0}

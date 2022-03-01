@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 17
   m_EditorClassIdentifier: 
-  category: Animal
+  types: 2
   iconLetter: Dalet
   iconName: Fish
-  icon: {fileID: -2294304895056167147, guid: 9b4b88c0c1fd140859a76c83603d0595, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 8b964093c91384b6f92c26f1f6c7b3bb, type: 3}
   iconScore: 1

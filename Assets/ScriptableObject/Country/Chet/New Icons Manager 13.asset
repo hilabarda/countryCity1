@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 13
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Chet
   iconName: Chof Hashnav
-  icon: {fileID: 1070386945139874525, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 411bf8cc1f6324d48a04f64947da75b1, type: 3}
   iconScore: 1

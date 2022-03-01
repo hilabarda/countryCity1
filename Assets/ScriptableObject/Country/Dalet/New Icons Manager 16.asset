@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 16
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Dalet
   iconName: Denmark
-  icon: {fileID: -306036704260625420, guid: 762c82c0141324d30b840826cd08b0c9, type: 3}
+  gameObjectIcon: {fileID: 8332141053287989803, guid: 76c5289f73be54ab59c4e2359f144eda, type: 3}
   iconScore: 1

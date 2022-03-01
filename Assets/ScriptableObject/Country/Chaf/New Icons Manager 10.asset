@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4589dfadb85af43a386ba3e6e73a6e24, type: 3}
   m_Name: New Icons Manager 10
   m_EditorClassIdentifier: 
-  category: country
+  types: 0
   iconLetter: Chaf
-  iconName: Austria
-  icon: {fileID: 0}
+  iconName: Kuwait
+  gameObjectIcon: {fileID: 8332141053287989803, guid: c54116d5b8be243358dc3b69f300b03e, type: 3}
   iconScore: 1
